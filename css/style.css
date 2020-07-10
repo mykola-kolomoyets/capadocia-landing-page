@@ -288,3 +288,45 @@ ul {
 .slick-next {
    right: 0;
 }
+
+/* =================== */
+/* === HOTEL BLOCK === */
+/* =================== */
+
+
+.hotel {
+}
+
+.hotel__title {
+}
+
+.hotel__title span {
+   margin-left: 120px;
+}
+
+.hotel__inner {
+   display: flex;
+}
+
+.hotel__images {
+   margin-right: 100px;
+}
+
+.hotel__content {
+}
+
+.hotel__text {
+   margin-bottom: 20px;
+}
+
+.hotel__gallery {
+   margin-top: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.hotel__gallery a {
+   width: 250px;
+   margin-top: 50px;
+}
