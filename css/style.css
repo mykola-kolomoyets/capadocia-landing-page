@@ -223,7 +223,7 @@ ul {
 }
 .our-trip__body {
    display: flex;
-   flex-direction: column; 
+   flex-direction: column;
    justify-content: space-between;
    align-items: start;
    height: 100%;
@@ -243,7 +243,7 @@ ul {
    font-family: "RobotoCondensed-Light";
    font-size: 24px;
    line-height: 28px;
-   border: 1px solid #E2AB3F;
+   border: 1px solid #e2ab3f;
    padding: 11px 53px;
    cursor: pointer;
 }
@@ -293,7 +293,6 @@ ul {
 /* === HOTEL BLOCK === */
 /* =================== */
 
-
 .hotel__title span {
    margin-left: 120px;
 }
@@ -320,4 +319,124 @@ ul {
 .hotel__gallery a {
    width: 250px;
    margin-top: 50px;
+}
+
+/* =================== */
+/* === PRICE BLOCK === */
+/* =================== */
+
+.price {
+   background-image: url(../images/price.png);
+   background-repeat: no-repeat;
+   background-position: center right 20%;
+}
+
+.price__title span {
+   margin-left: 100px;
+}
+
+.price__inner {
+   display: flex;
+}
+
+.price__on {
+   margin-right: 70px;
+   width: 530px;
+}
+
+.price__on-title,
+.price__off-title {
+   font-size: 24px;
+   line-height: 28px;
+   margin-bottom: 50px;
+   font-family: "RobotoCondensed-Regular";
+}
+
+.price__list-item {
+   margin-bottom: 20px;
+}
+
+/* ====================== */
+/* === CONTACTS BLOCK === */
+/* ====================== */
+
+.contacts {
+}
+
+.contacts__inner {
+   display: flex;
+   justify-content: space-between;
+}
+.contacts__content {
+   text-align: center;
+}
+.contacts__info {
+}
+
+.contacts__date {
+   margin-bottom: 20px;
+}
+
+.contacts__price {
+   margin-left: 120px;
+}
+
+.contacts__date,
+.contacts__price {
+   font-family: "balqis";
+   font-weight: 30;
+   font-size: 96px;
+   line-height: 100px;
+   color: #e2ab3f;
+}
+
+.contacts__date span,
+.contacts__price span {
+   display: block;
+   color: black;
+   font-family: "RobotoCondensed-LightItalic";
+   font-size: 24px;
+   line-height: 28px;
+   margin: -10px 0 0 205px;
+}
+
+.contacts__form {
+   max-width: 383px;
+   margin: 0 auto;
+}
+.contacts__form-title {
+   font-family: "RobotoCondensed-Regular";
+   font-size: 24px;
+   line-height: 28px;
+   margin-bottom: 50px;
+}
+
+.contacts__form-input {
+   border: 1px solid #e2ab3f;
+   display: block;
+   margin-bottom: 20px;
+   height: 50px;
+   width: 100%;
+   padding: 0 31px;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.contacts__form-input::placeholder {
+   color: black;
+}
+
+.contact__form-btn {
+   font-family: "RobotoCondensed-Light";
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 28px;
+   background: transparent;
+   border: 1px solid #E2AB3F;
+   text-transform: uppercase;
+   padding: 11px 45px;
+   cursor: pointer;
+   
+}
+.contacts__images {
 }
