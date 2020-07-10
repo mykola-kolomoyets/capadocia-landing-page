@@ -294,12 +294,6 @@ ul {
 /* =================== */
 
 
-.hotel {
-}
-
-.hotel__title {
-}
-
 .hotel__title span {
    margin-left: 120px;
 }
@@ -310,9 +304,6 @@ ul {
 
 .hotel__images {
    margin-right: 100px;
-}
-
-.hotel__content {
 }
 
 .hotel__text {
