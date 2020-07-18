@@ -253,6 +253,16 @@ ul {
   border: 1px solid #e2ab3f;
   padding: 11px 53px;
   cursor: pointer;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+
+.our-trip__btn:hover {
+  background-color: #e2ab3f;
+  color: white;
 }
 
 .our-trip__slider {
@@ -448,7 +458,16 @@ ul {
   text-transform: uppercase;
   padding: 11px 45px;
   cursor: pointer;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
 
+.contact__form-btn:hover {
+  background-color: #E2AB3F;
+  color: white;
 }
 
 /* ==================== */
